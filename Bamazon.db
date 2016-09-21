@@ -1,0 +1,14 @@
+CREATE DATABASE Bamazon
+
+USE BamazonDB;
+
+CREATE TABLE Products(
+'ItemID' VARCHAR(100), NONULL 
+'ProductName' VARCHAR(100) NONULL,
+'DepartmentName' VARCHAR(100) NULL, 
+'Price' INT NULL,
+'StcokQuantity' INT NULL, 
+PRIMARY KEY ('position')
+);
+ 
+SELECT * FROM top5000;
